@@ -8,13 +8,13 @@ if st.button('Click for a Surprise!'):
     st.balloons()  # Adds a fun animation
     
     # Display the invitation message
-    st.image('8ec853bf-21c9-4ea0-96e4-bcbe3ed29101.webp', caption='Join us for dinner at Nayan\'s place!')
+    st.image('8ec853bf-21c9-4ea0-96e4-bcbe3ed29101.webp', caption='Join us for dinner at Neice\'s place!')
     
     st.write("**You're Invited!**")
-    st.write("We would be honored if you could join us for dinner to celebrate this special occasion.")
+    st.write("I would be honored if you could join us for dinner to celebrate this special occasion.")
     st.write("📅 **Date**: 5th September")
     st.write("🕕 **Time**: Post 6:00 PM")
-    st.write("📍 **Venue**: Nayan's Place")
+    st.write("📍 **Venue**: Neice's Place")
     
     # Display the poem
     poem = """
