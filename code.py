@@ -1,5 +1,13 @@
 import streamlit as st
-
+# Remove Streamlit branding and header/footer
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 # Title of the app
 st.title("Teacher's Day Celebration Invitation")
 
