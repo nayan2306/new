@@ -11,7 +11,7 @@ hide_streamlit_style = """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 # Title of the app
-st.title("Teacher's Day Celebration Invitation")
+st.title("Invitation")
 
 poem = """
             From lessons in class to lessons in life,  
@@ -26,7 +26,7 @@ poem = """
             """
 st.markdown(poem)
 # Button for the invitation
-if st.button('Click for a Surprise!'):
+if st.button('Click for a Detail!'):
     st.balloons()  # Adds a fun animation
     
     # Display the invitation message
