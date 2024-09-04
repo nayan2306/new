@@ -13,9 +13,6 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 # Title of the app
 st.title("Teacher's Day Celebration Invitation")
 
-# Check if the poem visibility state is set, otherwise initialize it
-if 'show_poem' not in st.session_state:
-    st.session_state.show_poem = False
 
 # Button for the invitation
 if st.button('Click for a Surprise!'):
@@ -32,19 +29,15 @@ if st.button('Click for a Surprise!'):
 
     # Button to reveal the poem
     if st.button('Click to Reveal the message '):
-        st.session_state.show_poem = True
-
-# Display the poem only if the poem button was clicked
-if st.session_state.show_poem:
-    poem = """
-    From lessons in class to lessons in life,  
-    You’ve guided me through every strife.  
-    From listening to tantrums, wiping my tears,  
-    To showing me the path when it wasn't clear.  
-
-    From a stranger at first, to my teacher so true,  
-    Then Masi, the bond between us grew.  
-    Thank you for all, for being so kind,  
-    For shaping my heart, my soul, and my mind.
-    """
-    st.markdown(poem)
+            poem = """
+            From lessons in class to lessons in life,  
+            You’ve guided me through every strife.  
+            From listening to tantrums, wiping my tears,  
+            To showing me the path when it wasn't clear.  
+        
+            From a stranger at first, to my teacher so true,  
+            Then Masi, the bond between us grew.  
+            Thank you for all, for being so kind,  
+            For shaping my heart, my soul, and my mind.
+            """
+            st.markdown(poem)
