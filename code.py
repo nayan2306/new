@@ -13,7 +13,18 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 # Title of the app
 st.title("Teacher's Day Celebration Invitation")
 
-
+poem = """
+            From lessons in class to lessons in life,  
+            You’ve guided me through every strife.  
+            From listening to tantrums, wiping my tears,  
+            To showing me the path when it wasn't clear.  
+        
+            From a stranger at first, to my teacher so true,  
+            Then Masi, the bond between us grew.  
+            Thank you for all, for being so kind,  
+            For shaping my heart, my soul, and my mind.
+            """
+st.markdown(poem)
 # Button for the invitation
 if st.button('Click for a Surprise!'):
     st.balloons()  # Adds a fun animation
@@ -27,17 +38,4 @@ if st.button('Click for a Surprise!'):
     st.write("🕕 **Time**: Post 6:00 PM")
     st.write("📍 **Venue**: Neice's Place")
 
-    # Button to reveal the poem
-    if st.button('Click to Reveal the message '):
-            poem = """
-            From lessons in class to lessons in life,  
-            You’ve guided me through every strife.  
-            From listening to tantrums, wiping my tears,  
-            To showing me the path when it wasn't clear.  
-        
-            From a stranger at first, to my teacher so true,  
-            Then Masi, the bond between us grew.  
-            Thank you for all, for being so kind,  
-            For shaping my heart, my soul, and my mind.
-            """
-            st.markdown(poem)
+    
