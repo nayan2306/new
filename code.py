@@ -8,7 +8,7 @@ if st.button('Click for a Surprise!'):
     st.balloons()  # Adds a fun animation
     
     # Display the invitation message
-    st.image('/mnt/data/A_warm_and_inviting_image_depicting_a_Teacher\'s_Da.png', caption='Join us for dinner at Nayan\'s place!')
+    st.image('8ec853bf-21c9-4ea0-96e4-bcbe3ed29101.webp', caption='Join us for dinner at Nayan\'s place!')
     
     st.write("**You're Invited!**")
     st.write("We would be honored if you could join us for dinner to celebrate this special occasion.")
