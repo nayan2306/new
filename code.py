@@ -24,7 +24,7 @@ if st.button('Click for a Surprise!'):
     st.write("🕕 **Time**: Post 6:00 PM")
     st.write("📍 **Venue**: Neice's Place")
     if st.button('Click for a Surprise!'):
-    st.balloons()  # Adds a fun animation
+                st.balloons()  # Adds a fun animation
                 # Display the poem
                 poem = """
                 From lessons in class to lessons in life,  
