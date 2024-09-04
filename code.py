@@ -31,7 +31,7 @@ if st.button('Click for a Surprise!'):
     st.write("📍 **Venue**: Neice's Place")
 
     # Button to reveal the poem
-    if st.button('Click to Reveal the Poem'):
+    if st.button('Click to Reveal the message '):
         st.session_state.show_poem = True
 
 # Display the poem only if the poem button was clicked
